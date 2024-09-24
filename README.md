@@ -15,4 +15,4 @@
 * [01 - Variables](./Básico/01-variables.py)
 * [02 - Operadores](./Básico/02-operadores.py)
 * [03 - Strings](./Básico/03-strings.py)
-* [00 - Lists](./Básico/04-lists.py)
+* [04 - Lists](./Básico/04-lists.py)
