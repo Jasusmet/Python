@@ -1,4 +1,4 @@
-### Introducción ###
+### Introduction ###
 
 #* Nuestro "hola mundo" en Python (Se puede hacer de ambas formas)
 print("Estas son nuestras primeras cadenas de texto:")
@@ -21,7 +21,7 @@ print(3 - 1)   # Resta(-)
 print(2 * 3)   # Multiplicación(*)
 print(3 / 2)   # División(/)
 print(3 ** 2)  # Exponente(**)
-print(3 % 2)   # Móduilo(%)
+print(3 % 2)   # Módulo(%)
 print(3 // 2)  # Resto de la división(//)
 
 #* Imprimir tipos de datos

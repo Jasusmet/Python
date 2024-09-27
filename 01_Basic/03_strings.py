@@ -1,4 +1,4 @@
-# Strings
+### Strings ###
 
 my_string = "Mi String"
 my_other_string = 'Mi otro String'

@@ -1,4 +1,4 @@
-# Variables
+### Variables ###
 
 my_string_variable = "My String variable" # La variable es un string
 print(my_string_variable)
