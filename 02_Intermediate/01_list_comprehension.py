@@ -3,7 +3,7 @@
 """
 List comprehension in Python is a compact way of creating a list from a sequence.
 It is a short way to create a new list.
-List comprehension is considerably faster than processing a list using the for loop.
+List comprehension is considerably faster than processing a list using the 'for' loop.
 """
 
 my_original_list = [35, 24, 62, 52, 30, 30, 17]
