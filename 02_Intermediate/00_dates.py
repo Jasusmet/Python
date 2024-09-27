@@ -115,10 +115,46 @@ now = datetime.now()
 time_one = now.strftime("%m/%d/%Y, %H:%M:%S")
 print("The current date and time is:", time_one)
 
-print("3. Today is 5 December, 2019. Change this time string to time\n")
+print("\n3. Today is 5 December, 2019. Change this time string to time\n")
 
 from datetime import datetime
 
 # Using 'strptime' function to parse a string representing a time or date
 date_string = "5 December, 2019"
-print("date_string = ")
+print("date_string =", date_string)
+date_object = datetime.strptime(date_string, "%d %B, %Y")
+print("date_object =", date_object)
+
+print("\n4. Calculate the time difference between now and new year\n")
+
+from datetime import datetime
+
+today = date(year=2024, month=9, day=27)
+new_year = date(year=2025, month=1, day=1)
+time_left_for_new_year = new_year - today
+print("Time left for new year: ", time_left_for_new_year)
+
+print("\n5. Calculate the time difference between 1 January 1970 and now\n")
+
+from datetime import datetime
+
+def calculate_time_diff(year1, month1, day1, year2, month2, day2):
+    date1 = date(year1, month1, day1)
+    date2 = date(year2, month2, day2)
+    
+    time_diff = date2 - date1
+    
+    days = time_diff.days
+    years = days // 365
+    remaining_days = days % 365
+    months = remaining_days // 30
+    remaining_days = remaining_days % 30
+    
+    return years, months, remaining_days
+
+today = date(year=2024, month=9, day=27)
+past_time = date(year=1970, month=1, day=1)
+
+years, months, days = calculate_time_diff(1970, 1, 1, 2024, 9, 27)
+
+print("The time difference is : {} years, {} months and {} days".format(years, months, days))
