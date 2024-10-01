@@ -7,8 +7,6 @@
 
 ## Basic
 
-### Code
-
 * [00 - Introduction](./01_Basic/00_introduction.py)
 * [01 - Variables](./01_Basic/01_variables.py)
 * [02 - Operators](./01_Basic/02_operators.py)
@@ -25,8 +23,6 @@
 
 
 ## Intermediate
-
-### Code
 
 * [00 - Date Time](./02_Intermediate/00_date_time.md)
 * [01 - List Comprehension](./02_Intermediate/01_list_comprehension.py)
