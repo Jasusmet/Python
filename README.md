@@ -28,7 +28,7 @@
 
 ### Code
 
-* [00 - Dates](./02_Intermediate/00_dates.py)
+* [00 - Date Time](./02_Intermediate/00_date_time.md)
 * [01 - List Comprehension](./02_Intermediate/01_list_comprehension.py)
 * [02 - Lambdas](./02_Intermediate/02_lambdas.py)
 * [03 - Higher Order Functions](./02_Intermediate/03_higher_order_functions.py)
