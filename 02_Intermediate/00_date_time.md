@@ -9,7 +9,6 @@ The datetime module in Python provides classes for manipulating dates and times.
 
 ## Index
 
-* [_Date Time_](#Date-Time)
   - [Getting _datetime_ information](#getting-datetime-information)
   - [Formatting date output using _strftime_](#formatting-date-output-using-strftime)
   - [String to time using _strptime_](#string-to-time-using-strptime)

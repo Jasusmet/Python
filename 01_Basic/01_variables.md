@@ -4,7 +4,6 @@ Variables store data in a computer memory. Mnemonic variables are recommended to
 
 ## Index
 
-- [Variables](#variables)
   - [Declaring multiple variables in a line](#declaring-multiple-variables-in-a-line)
   - [Data types](#data-types)
   - [Checking data types and casting](#checking-data-types-and-casting)

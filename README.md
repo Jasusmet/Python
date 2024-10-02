@@ -10,7 +10,7 @@
 | ------- | :-------------------------------------------: |
 | 00      | [Introduction](./01_Basic/00_introduction.md) |
 | 01      |    [Variables](./01_Basic/01_variables.md)    |
-| 02      |                [Operators](.)                 |
+| 02      |    [Operators](./01_Basic/02_operators.md)    |
 | 03      |                 [Strings](.)                  |
 | 04      |                  [Lists](.)                   |
 | 04      |                  [Tuples](.)                  |
@@ -32,5 +32,5 @@
 | 02      |                            [Lambdas](.)                            |
 | 03      |                    [Higher Order Functions](.)                     |
 | 04      |                          [Error Types](.)                          |
-| 04      |                         [File Handling](.)                         |
-| 05      | [Regular Expressions](./02_Intermediate/06_regular_expressions.md) |
+| 05      |                         [File Handling](.)                         |
+| 06      | [Regular Expressions](./02_Intermediate/06_regular_expressions.md) |
