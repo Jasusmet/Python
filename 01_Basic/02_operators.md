@@ -30,7 +30,6 @@ Arithmetic operators are used to perform mathematical operations on numbers. The
 #### Integers
 
 ```py
-# Arithmetic Operations in Python
 # Integers
 
 print('Addition: ', 1 + 2) # 3
@@ -49,6 +48,7 @@ print('Exponentiation: ', 2 ** 3) # 9 it means 2 * 2 * 2
 
 ```py
 # Floating numbers
+
 print('Floating Point Number, PI', 3.14)
 print('Floating Point Number, gravity', 9.81)
 ```
@@ -57,6 +57,7 @@ print('Floating Point Number, gravity', 9.81)
 
 ```py
 # Complex numbers
+
 print('Complex number: ', 1 + 1j)
 print('Multiplying complex numbers: ',(1 + 1j) * (1 - 1j))
 ```
