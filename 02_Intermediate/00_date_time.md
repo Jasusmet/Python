@@ -1,21 +1,32 @@
-# *Date Time*
+# _Date Time_
 
 The datetime module in Python provides classes for manipulating dates and times. It allows you to:
 
-*   Create objects representing specific dates and times
-*   Perform arithmetic operations on dates and times (e.g., add or subtract days, hours, minutes, etc.)
-*   Format dates and times in different formats
-*   Extract information from dates and times (e.g., day of the week, month, year, etc.)
+- Create objects representing specific dates and times
+- Perform arithmetic operations on dates and times (e.g., add or subtract days, hours, minutes, etc.)
+- Format dates and times in different formats
+- Extract information from dates and times (e.g., day of the week, month, year, etc.)
+
+## Index
+
+* [_Date Time_](#Date-Time)
+  - [Getting _datetime_ information](#getting-datetime-information)
+  - [Formatting date output using _strftime_](#formatting-date-output-using-strftime)
+  - [String to time using _strptime_](#string-to-time-using-strptime)
+  - [Using _date_ from _datetime_](#using-date-from-datetime)
+  - [Time objects to represent time](#time-objects-to-represent-time)
+  - [Difference between two points in time using _date_](#difference-between-two-points-in-time-using-date)
+  - [Difference between two points in Time using _timedelta_](#difference-between-two-points-in-time-using-timedelta)
 
 ### DateTime Classes
 
 The datetime modulo provides several classes:
 
-* date: Represents a date whithout time
-* time: Represents a time without date
-* datetime: Represents a date and time
-* timedelta: Represents a time interval (e.g., a day, hour, minute, etc.)
-* tzinfo: Represents time zone information
+- date: Represents a date whithout time
+- time: Represents a time without date
+- datetime: Represents a date and time
+- timedelta: Represents a time interval (e.g., a day, hour, minute, etc.)
+- tzinfo: Represents time zone information
 
 ```py
 import datetime
@@ -25,7 +36,7 @@ print(dir(datetime))
 
 With dir or help built-in commands it is possible to know the available functions in a certain module. As you can see, in the datetime module there are many functions, but we will focus on _date_, _datetime_, _time_ and _timedelta_. Let's see them one by one.
 
-### Getting *datetime* information
+### Getting _datetime_ information
 
 ```py
 from datetime import datetime
@@ -45,7 +56,7 @@ print(f'{day}/{month}/{year}, {hour}:{minute}')
 
 Timestamp or Unix timestamp is the number of seconds elapsed from 1st of January 1970 UTC.
 
-### Formatting date output using *strftime*
+### Formatting date output using _strftime_
 
 ```py
 from datetime import datetime
@@ -85,7 +96,7 @@ Here are all the _strftime_ symbols we use to format time. An example of all the
 
 ![strftime](../00_Images/strftime.png)
 
-### String to time using *strptime*
+### String to time using _strptime_
 
 ```py
 from datetime import datetime
@@ -100,7 +111,7 @@ date_string = 1 October, 2024
 date_object = 2024-10-01 00:00:00
 ```
 
-### Using *date* from *datetime*
+### Using _date_ from _datetime_
 
 ```py
 from datetime import date
@@ -126,13 +137,13 @@ b = time(10, 30, 50)
 print("b =", b) # 10:30:50
 # Time(hour, minute and second)
 c = time(hour=10, minute=30, second=50)
-print("c =", c) # 10:30:50 
+print("c =", c) # 10:30:50
 # Time(hour, minute, second, microsecond)
 d = time(10, 30, 50, 200555)
 print("d =", d) # 10:30:50.200555
 ```
 
-### Difference between two points in time using *date*
+### Difference between two points in time using _date_
 
 ```py
 today = date(year=2019, month=12, day=5)
@@ -147,7 +158,7 @@ diff = t2 - t1
 print('Time left for new year:', diff) # Time left for new year: 26 days, 23: 01: 00
 ```
 
-### Difference between two points in time using *timedelta*
+### Difference between two points in time using _timedelta_
 
 ```py
 from datetime import timedelta
@@ -231,15 +242,15 @@ from datetime import datetime
 def calculate_time_diff(year1, month1, day1, year2, month2, day2):
     date1 = date(year1, month1, day1)
     date2 = date(year2, month2, day2)
-    
+
     time_diff = date2 - date1
-    
+
     days = time_diff.days
     years = days // 365
     remaining_days = days % 365
     months = remaining_days // 30
     remaining_days = remaining_days % 30
-    
+
     return years, months, remaining_days
 
 today = date(year=2024, month=9, day=27)
