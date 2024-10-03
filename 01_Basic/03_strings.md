@@ -35,15 +35,13 @@ print(sentence)
 Multiline string is created by using triple single (''') or triple double quotes ("""). See the example below.
 
 ```py
-multiline_string = '''I am a teacher and enjoy teaching.
-I didn't find anything as rewarding as empowering people.
-That is why I created 30 days of python.'''
+multiline_string = '''I'm a developer and enjoy programming.
+That's why I'm doing this.'''
 print(multiline_string)
 
 # Another way of doing the same thing
-multiline_string = """I am a teacher and enjoy teaching.
-I didn't find anything as rewarding as empowering people.
-That is why I created 30 days of python."""
+multiline_string = """I'm a developer and enjoy programming.
+That's why I'm doing this."""
 print(multiline_string)
 ```
 
