@@ -72,7 +72,7 @@ A collection of one or more characters under a single or double quote. If a stri
 'Finland'
 'Python'
 'I love teaching'
-'I hope you are enjoying the first day of 30DaysOfPython Challenge'
+'I hope you are enjoying the course'
 ```
 
 #### Booleans

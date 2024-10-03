@@ -178,7 +178,7 @@ There is nothing as rewarding as educating and empowering people.
 I found teaching more interesting than any other jobs. Does this motivate you to be a teacher?
 ```
 
-## re.split()
+#### re.split()
 
 Takes a string, splits it at the match points, returns a list
 
