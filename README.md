@@ -11,7 +11,7 @@
 | 00      | [Introduction](./01_Basic/00_introduction.md) |
 | 01      |    [Variables](./01_Basic/01_variables.md)    |
 | 02      |    [Operators](./01_Basic/02_operators.md)    |
-| 03      |                 [Strings](.)                  |
+| 03      |      [Strings](./01_Basic/03_strings.md)      |
 | 04      |                  [Lists](.)                   |
 | 04      |                  [Tuples](.)                  |
 | 05      |                   [Sets](.)                   |
