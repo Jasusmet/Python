@@ -117,7 +117,7 @@ language = 'Python'
 formated_string = 'I am %s %s. I teach %s' %(first_name, last_name, language)
 print(formated_string) # I am Jesús Clemente. I teach Python
 
-# Strings  and numbers
+# Strings and numbers
 radius = 10
 pi = 3.14
 area = pi * radius ** 2
@@ -278,7 +278,7 @@ print(var.capitalize()) # 'Python course'
 ```py
 var = 'python course'
 print(var.count('y')) # 1
-print(var.count('y', 3, 10)) # 0 
+print(var.count('y', 3, 10)) # 0
 print(var.count('th')) # 1
 ```
 
@@ -332,7 +332,7 @@ result = 'The area of a circle with radius {} is {}'.format(str(radius), str(are
 print(result) # The area of a circle with radius 10 is 314
 ```
 
-- index(): Returns the lowest index of a substring, additional arguments indicate starting and ending index (default 0 and string length - 1). If the substring is not found it raises a valueError. 
+- index(): Returns the lowest index of a substring, additional arguments indicate starting and ending index (default 0 and string length - 1). If the substring is not found it raises a valueError.
 
 ```py
 var = 'python course'
