@@ -82,7 +82,7 @@ A boolean data type is either a True or False value. T and F should be always up
 **Example:**
 
 ```python
-    True  #  Is the light on? If it is on, then the value is True
+    True  # Is the light on? If it is on, then the value is True
     False # Is the light on? If it is off, then the value is False
 ```
 
@@ -110,7 +110,7 @@ A Python dictionary object is an unordered collection of data in a key value pai
 'first_name':'Adam',
 'last_name':'Yetayeh',
 'country':'Finland', 
-'age':250, 
+'age':25, 
 'is_married':True,
 'skills':['JS', 'React', 'Node', 'Python']
 }
