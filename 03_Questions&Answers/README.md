@@ -10,19 +10,8 @@ Here is the list of Python interview questions and answers that can help you pre
 
 01 - What is Python mostly used for?
 
-<button onclick="toggleAnswer()">Show/Hide Answer</button>
-<div id="answer" style="display: none;">
-  <!-- Your answer content here -->
+<details>
+  <summary>Show/Hide Answer</summary>
   This is the answer that will be shown or hidden.
-</div>
+</details>
 
-<script>
-  function toggleAnswer() {
-    var answer = document.getElementById("answer");
-    if (answer.style.display === "none") {
-      answer.style.display = "block";
-    } else {
-      answer.style.display = "none";
-    }
-  }
-</script>
